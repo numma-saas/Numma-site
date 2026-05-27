@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-label="Module TVA NUMMA — déclaration CA3 avec prochaine échéance 19 avril 2026 et bouton télédéclaration">
+  <title>Module TVA NUMMA — Déclaration CA3 pré-remplie</title>
+  <desc>Capture d'écran du module TVA NUMMA : calcul automatique de la TVA collectée et déductible, récapitulatif CA3 et télédéclaration sur impots.gouv.fr en un clic.</desc>
+  <defs>
+    <linearGradient id="avatarG4" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#6D28D9"/></linearGradient>
+    <filter id="shadow4" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0B0F19" flood-opacity="0.06"/></filter>
+  </defs>
+  <style>.app{font-family:'Inter',system-ui,sans-serif}.text-dark{fill:#0B0F19}.text-muted{fill:#6B7280}.text-light{fill:#9CA3AF}.card{fill:#fff;stroke:#E5E7EB;stroke-width:1}</style>
+  <rect width="1200" height="760" fill="#F9FAFB"/>
+
+  <!-- Sidebar -->
+  <rect x="0" y="0" width="230" height="760" fill="#fff" stroke="#E5E7EB"/>
+  <rect x="16" y="16" width="198" height="56" rx="10" fill="#F9FAFB" stroke="#E5E7EB"/>
+  <circle cx="40" cy="44" r="16" fill="#E5E7EB"/>
+  <text x="40" y="49" text-anchor="middle" font-size="12" font-weight="700" fill="#6B7280" class="app">G</text>
+  <text x="66" y="42" font-size="13" font-weight="700" class="text-dark app">GIOVVVV</text>
+  <rect x="66" y="48" width="42" height="16" rx="8" fill="#F3E8FF"/>
+  <text x="87" y="59" text-anchor="middle" font-size="9" font-weight="700" fill="#7C3AED" class="app">Admin</text>
+
+  <text x="40" y="108" font-size="13" fill="#374151" class="app">Accueil</text>
+  <text x="24" y="138" font-size="10" font-weight="700" fill="#9CA3AF" letter-spacing="0.6" class="app">FACTURATION</text>
+  <text x="40" y="164" font-size="12" fill="#374151" class="app">Factures ventes</text>
+  <text x="40" y="188" font-size="12" fill="#374151" class="app">Factures achats</text>
+  <text x="40" y="212" font-size="12" fill="#374151" class="app">Devis</text>
+  <text x="40" y="236" font-size="12" fill="#374151" class="app">Catalogue</text>
+  <text x="40" y="260" font-size="12" fill="#374151" class="app">Relances</text>
+  <text x="24" y="288" font-size="10" font-weight="700" fill="#9CA3AF" letter-spacing="0.6" class="app">CLIENTS &amp; FOURN</text>
+  <text x="40" y="314" font-size="12" fill="#374151" class="app">Clients</text>
+  <text x="40" y="338" font-size="12" fill="#374151" class="app">Fournisseurs</text>
+  <text x="24" y="366" font-size="10" font-weight="700" fill="#9CA3AF" letter-spacing="0.6" class="app">COMPTABILITÉ</text>
+  <text x="40" y="392" font-size="12" fill="#374151" class="app">Grand livre</text>
+  <text x="40" y="416" font-size="12" fill="#374151" class="app">Balance</text>
+  <text x="40" y="440" font-size="12" fill="#374151" class="app">Bilan</text>
+  <!-- Active: TVA -->
+  <rect x="16" y="452" width="198" height="36" rx="8" fill="#F5F3FF"/>
+  <rect x="16" y="452" width="3" height="36" fill="#7C3AED"/>
+  <text x="40" y="475" font-size="13" font-weight="600" fill="#7C3AED" class="app">TVA</text>
+
+  <text x="40" y="510" font-size="12" fill="#374151" class="app">Archives &amp; Audit</text>
+  <text x="24" y="538" font-size="10" font-weight="700" fill="#9CA3AF" letter-spacing="0.6" class="app">FINANCE</text>
+  <text x="40" y="564" font-size="12" fill="#374151" class="app">Trésorerie</text>
+  <text x="40" y="588" font-size="12" fill="#374151" class="app">Caisse</text>
+
+  <rect x="0" y="696" width="230" height="64" fill="#FAFAFA" stroke="#E5E7EB"/>
+  <circle cx="32" cy="728" r="16" fill="url(#avatarG4)"/>
+  <text x="32" y="732" text-anchor="middle" font-size="11" font-weight="700" fill="#fff" class="app">MT</text>
+  <text x="56" y="724" font-size="12" font-weight="700" class="text-dark app">MALLO TES</text>
+  <rect x="140" y="714" width="48" height="18" rx="9" fill="#F3E8FF"/>
+  <text x="164" y="726" text-anchor="middle" font-size="9" font-weight="700" fill="#7C3AED" class="app">Admin</text>
+
+  <!-- Top bar -->
+  <rect x="230" y="0" width="970" height="72" fill="#fff" stroke="#E5E7EB"/>
+  <text x="260" y="42" font-size="13" fill="#6B7280" class="app">Comptabilité / <tspan fill="#0B0F19" font-weight="600">TVA</tspan></text>
+  <rect x="560" y="22" width="320" height="30" rx="15" fill="#F3F4F6"/>
+  <text x="580" y="42" font-size="12" fill="#9CA3AF" class="app">Rechercher</text>
+  <circle cx="1040" cy="36" r="14" fill="#F3F4F6"/>
+  <text x="1040" y="41" text-anchor="middle" font-size="13" class="app"></text>
+  <rect x="1070" y="18" width="120" height="36" rx="18" fill="#F9FAFB"/>
+  <circle cx="1090" cy="36" r="12" fill="url(#avatarG4)"/>
+  <text x="1090" y="40" text-anchor="middle" font-size="10" font-weight="700" fill="#fff" class="app">MT</text>
+  <text x="1108" y="40" font-size="11" font-weight="700" class="text-dark app">MALLO TEST</text>
+
+  <!-- Alert: Échéance -->
+  <rect x="260" y="92" width="920" height="64" rx="10" fill="#FEF2F2" stroke="#FECACA"/>
+  <text x="288" y="123" font-size="13" class="app"><tspan font-weight="700" fill="#DC2626">Prochaine échéance TVA : 19 avril 2026</tspan></text>
+  <rect x="1060" y="108" width="104" height="32" rx="8" fill="#DC2626"/>
+  <text x="1112" y="129" text-anchor="middle" font-size="12" font-weight="700" fill="#fff" class="app">Déclarer</text>
+
+  <!-- Period card -->
+  <rect x="260" y="174" width="920" height="98" rx="12" class="card" filter="url(#shadow4)"/>
+  <text x="280" y="198" font-size="10" font-weight="700" class="text-light app" letter-spacing="0.6">PÉRIODE</text>
+  <rect x="280" y="214" width="76" height="34" rx="8" fill="#7C3AED"/>
+  <text x="318" y="236" text-anchor="middle" font-size="12" font-weight="600" fill="#fff" class="app">Mois</text>
+  <rect x="364" y="214" width="96" height="34" rx="8" fill="#fff" stroke="#E5E7EB"/>
+  <text x="412" y="236" text-anchor="middle" font-size="12" class="text-dark app">Trimestre</text>
+  <rect x="468" y="214" width="76" height="34" rx="8" fill="#fff" stroke="#E5E7EB"/>
+  <text x="506" y="236" text-anchor="middle" font-size="12" class="text-dark app">Année</text>
+  <rect x="564" y="214" width="140" height="34" rx="8" fill="#F9FAFB" stroke="#E5E7EB"/>
+  <text x="584" y="236" font-size="12" class="text-dark app">Mars 2026</text>
+  <text x="720" y="236" font-size="11" class="text-muted app">01/03/2026 31/03/2026</text>
+
+  <!-- Summary cards -->
+  <rect x="260" y="290" width="296" height="130" rx="12" class="card" filter="url(#shadow4)"/>
+  <rect x="280" y="308" width="36" height="36" rx="10" fill="#FEE2E2"/>
+  <text x="298" y="331" text-anchor="middle" font-size="16" class="app">⬆</text>
+  <text x="280" y="368" font-size="11" class="text-muted app">TVA collectée</text>
+  <text x="280" y="394" font-size="22" font-weight="800" class="text-dark app">0,00</text>
+  <text x="280" y="410" font-size="10" class="text-muted app">Compte 44571 sur ventes · 0 écriture</text>
+
+  <rect x="572" y="290" width="296" height="130" rx="12" class="card" filter="url(#shadow4)"/>
+  <rect x="592" y="308" width="36" height="36" rx="10" fill="#D1FAE5"/>
+  <text x="610" y="331" text-anchor="middle" font-size="16" class="app">⬇</text>
+  <text x="592" y="368" font-size="11" class="text-muted app">TVA déductible</text>
+  <text x="592" y="394" font-size="22" font-weight="800" class="text-dark app">0,00</text>
+  <text x="592" y="410" font-size="10" class="text-muted app">Compte 44566 sur achats · 0 écriture</text>
+
+  <rect x="884" y="290" width="296" height="130" rx="12" class="card" filter="url(#shadow4)"/>
+  <rect x="904" y="308" width="36" height="36" rx="10" fill="#FEE2E2"/>
+  <text x="922" y="331" text-anchor="middle" font-size="16" class="app"></text>
+  <text x="904" y="368" font-size="11" class="text-muted app">TVA nette</text>
+  <text x="904" y="394" font-size="22" font-weight="800" class="text-dark app">0,00</text>
+  <text x="904" y="410" font-size="10" class="text-muted app">Balance nulle</text>
+
+  <!-- Récapitulatif CA3 -->
+  <rect x="260" y="438" width="920" height="200" rx="12" class="card" filter="url(#shadow4)"/>
+  <text x="280" y="466" font-size="14" font-weight="700" class="text-dark app">Récapitulatif style déclaration CA3</text>
+  <text x="1160" y="466" text-anchor="end" font-size="11" class="text-muted app">Période : 01/03/2026 31/03/2026</text>
+
+  <text x="280" y="510" font-size="13" font-weight="600" class="text-dark app">TVA collectée sur les ventes</text>
+  <text x="280" y="528" font-size="11" class="text-muted app">Lignes 08/09 de la CA3</text>
+  <text x="1160" y="518" text-anchor="end" font-size="14" font-weight="700" class="text-dark app">0,00</text>
+  <line x1="280" y1="542" x2="1160" y2="542" stroke="#F3F4F6"/>
+
+  <text x="280" y="566" font-size="13" font-weight="600" class="text-dark app">TVA déductible sur les achats</text>
+  <text x="280" y="584" font-size="11" class="text-muted app">Lignes 19/20 de la CA3</text>
+  <text x="1160" y="574" text-anchor="end" font-size="14" font-weight="700" fill="#10B981" class="app">0,00</text>
+  <line x1="280" y1="600" x2="1160" y2="600" stroke="#F3F4F6"/>
+
+  <text x="280" y="624" font-size="13" font-weight="700" class="text-dark app">TVA nette à payer (ligne 28)</text>
+  <text x="1160" y="624" text-anchor="end" font-size="18" font-weight="800" class="text-dark app">0,00</text>
+  <text x="280" y="642" font-size="11" class="text-muted app">À télédéclarer avant le 19 avril 2026 sur impots.gouv.fr</text>
+
+  <!-- Footer hint -->
+  <rect x="260" y="660" width="920" height="50" rx="10" fill="#F5F3FF" stroke="#E9D5FF"/>
+  <text x="280" y="680" font-size="11" font-weight="700" fill="#7C3AED" class="app">Export FEC · PDF · XML EDI-TVA</text>
+  <text x="280" y="698" font-size="11" class="text-muted app">Franchise en base · Régime réel normal CA3 · Régime simplifié CA12 · autoliquidation · TVA intracommunautaire</text>
+</svg>

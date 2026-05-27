@@ -1,0 +1,43 @@
+# NUMMA — robots.txt
+# Site web marketing : tout ouvert sauf l'app et l'admin
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /login/
+Disallow: /api/
+Disallow: /app/
+
+# Crawl-delay raisonnable pour les bots peu prioritaires
+User-agent: AhrefsBot
+Crawl-delay: 5
+
+User-agent: SemrushBot
+Crawl-delay: 5
+
+# Bots IA / GEO — autorisés (politique opt-in pour contenu éditorial)
+# NUMMA accepte le crawling par les moteurs génératifs pour ses contenus publics
+User-agent: GPTBot
+Allow: /
+Disallow: /admin/
+Disallow: /login/
+Disallow: /api/
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /admin/
+Disallow: /login/
+Disallow: /api/
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /admin/
+Disallow: /login/
+Disallow: /api/
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /admin/
+Disallow: /login/
+Disallow: /api/
+
+Sitemap: https://www.numma.eu/sitemap.xml

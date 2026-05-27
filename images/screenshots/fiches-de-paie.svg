@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-label="Module Fiches de paie NUMMA — bulletin de Sophie Aldenov secrétaire 2300 euros brut 1820 euros net avril 2026">
+  <title>Module paie NUMMA — bulletins de salaire 2026 conformes URSSAF</title>
+  <desc>Capture d'écran du module paie NUMMA : génération de fiches de paie, calcul automatique des cotisations sociales selon barème URSSAF 2026, DSN.</desc>
+  <defs>
+    <linearGradient id="avatarG5" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#6D28D9"/></linearGradient>
+    <linearGradient id="saG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#A78BFA"/><stop offset="1" stop-color="#7C3AED"/></linearGradient>
+    <filter id="shadow5" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0B0F19" flood-opacity="0.06"/></filter>
+  </defs>
+  <style>.app{font-family:'Inter',system-ui,sans-serif}.text-dark{fill:#0B0F19}.text-muted{fill:#6B7280}.text-light{fill:#9CA3AF}.card{fill:#fff;stroke:#E5E7EB;stroke-width:1}</style>
+  <rect width="1200" height="760" fill="#F9FAFB"/>
+
+  <!-- Sidebar -->
+  <rect x="0" y="0" width="230" height="760" fill="#fff" stroke="#E5E7EB"/>
+  <rect x="16" y="16" width="198" height="56" rx="10" fill="#F9FAFB" stroke="#E5E7EB"/>
+  <circle cx="40" cy="44" r="16" fill="#E5E7EB"/>
+  <text x="40" y="49" text-anchor="middle" font-size="12" font-weight="700" fill="#6B7280" class="app">G</text>
+  <text x="66" y="42" font-size="13" font-weight="700" class="text-dark app">GIOVVVV</text>
+  <rect x="66" y="48" width="42" height="16" rx="8" fill="#F3E8FF"/>
+  <text x="87" y="59" text-anchor="middle" font-size="9" font-weight="700" fill="#7C3AED" class="app">Admin</text>
+
+  <text x="24" y="102" font-size="10" font-weight="700" fill="#9CA3AF" letter-spacing="0.6" class="app">COMPTABILITÉ</text>
+  <text x="40" y="128" font-size="12" fill="#374151" class="app">Grand livre</text>
+  <text x="40" y="152" font-size="12" fill="#374151" class="app">Balance</text>
+  <text x="40" y="176" font-size="12" fill="#374151" class="app">Bilan</text>
+  <text x="40" y="200" font-size="12" fill="#374151" class="app">TVA</text>
+  <text x="40" y="224" font-size="12" fill="#374151" class="app">Archives &amp; Audit</text>
+
+  <text x="24" y="252" font-size="10" font-weight="700" fill="#9CA3AF" letter-spacing="0.6" class="app">FINANCE</text>
+  <text x="40" y="278" font-size="12" fill="#374151" class="app">Trésorerie</text>
+  <text x="40" y="302" font-size="12" fill="#374151" class="app">Caisse</text>
+
+  <text x="24" y="334" font-size="10" font-weight="700" fill="#9CA3AF" letter-spacing="0.6" class="app">RH</text>
+  <text x="40" y="360" font-size="12" fill="#374151" class="app">Employés</text>
+  <text x="40" y="384" font-size="12" fill="#374151" class="app">Congés</text>
+  <!-- Active: Fiches de paie -->
+  <rect x="16" y="396" width="198" height="36" rx="8" fill="#F5F3FF"/>
+  <rect x="16" y="396" width="3" height="36" fill="#7C3AED"/>
+  <text x="40" y="419" font-size="13" font-weight="600" fill="#7C3AED" class="app">Fiches de paie</text>
+
+  <text x="40" y="455" font-size="12" fill="#374151" class="app">Calendrier</text>
+  <text x="40" y="479" font-size="12" fill="#374151" class="app">Notes de frais</text>
+
+  <text x="24" y="510" font-size="10" font-weight="700" fill="#9CA3AF" letter-spacing="0.6" class="app">PARAMÈTRES</text>
+
+  <rect x="0" y="696" width="230" height="64" fill="#FAFAFA" stroke="#E5E7EB"/>
+  <circle cx="32" cy="728" r="16" fill="url(#avatarG5)"/>
+  <text x="32" y="732" text-anchor="middle" font-size="11" font-weight="700" fill="#fff" class="app">MT</text>
+  <text x="56" y="724" font-size="12" font-weight="700" class="text-dark app">MALLO TES</text>
+  <rect x="140" y="714" width="48" height="18" rx="9" fill="#F3E8FF"/>
+  <text x="164" y="726" text-anchor="middle" font-size="9" font-weight="700" fill="#7C3AED" class="app">Admin</text>
+
+  <!-- Top bar -->
+  <rect x="230" y="0" width="970" height="72" fill="#fff" stroke="#E5E7EB"/>
+  <text x="260" y="42" font-size="13" fill="#6B7280" class="app">RH / <tspan fill="#0B0F19" font-weight="600">Fiches de paie</tspan></text>
+  <rect x="560" y="22" width="320" height="30" rx="15" fill="#F3F4F6"/>
+  <text x="580" y="42" font-size="12" fill="#9CA3AF" class="app">Rechercher</text>
+  <circle cx="1040" cy="36" r="14" fill="#F3F4F6"/>
+  <text x="1040" y="41" text-anchor="middle" font-size="13" class="app"></text>
+  <rect x="1070" y="18" width="120" height="36" rx="18" fill="#F9FAFB"/>
+  <circle cx="1090" cy="36" r="12" fill="url(#avatarG5)"/>
+  <text x="1090" y="40" text-anchor="middle" font-size="10" font-weight="700" fill="#fff" class="app">MT</text>
+  <text x="1108" y="40" font-size="11" font-weight="700" class="text-dark app">MALLO TEST</text>
+
+  <text x="260" y="118" font-size="24" font-weight="800" class="text-dark app">Fiches de paie</text>
+  <text x="260" y="142" font-size="12" class="text-muted app">Taux cotisations sociales 2026 URSSAF officiel</text>
+  <!-- Year select -->
+  <rect x="850" y="100" width="120" height="44" rx="10" fill="#fff" stroke="#E5E7EB"/>
+  <text x="910" y="128" text-anchor="middle" font-size="13" class="text-dark app">2026</text>
+  <!-- Generate btn -->
+  <rect x="988" y="100" width="192" height="44" rx="10" fill="#7C3AED"/>
+  <text x="1084" y="127" text-anchor="middle" font-size="13" font-weight="700" fill="#fff" class="app">+ Générer un bulletin</text>
+
+  <!-- Stat cards -->
+  <rect x="260" y="168" width="218" height="130" rx="12" class="card" filter="url(#shadow5)"/>
+  <rect x="280" y="186" width="32" height="32" rx="8" fill="#F5F3FF"/>
+  <text x="296" y="208" text-anchor="middle" font-size="14" class="app"></text>
+  <text x="280" y="240" font-size="10" class="text-muted app">Bulletins</text>
+  <text x="280" y="272" font-size="28" font-weight="800" class="text-dark app">1</text>
+  <text x="280" y="290" font-size="10" class="text-muted app">2026</text>
+
+  <rect x="493" y="168" width="218" height="130" rx="12" class="card" filter="url(#shadow5)"/>
+  <rect x="513" y="186" width="32" height="32" rx="8" fill="#F5F3FF"/>
+  <text x="529" y="208" text-anchor="middle" font-size="14" class="app"></text>
+  <text x="513" y="240" font-size="10" class="text-muted app">Validés</text>
+  <text x="513" y="272" font-size="28" font-weight="800" class="text-dark app">1</text>
+  <text x="513" y="290" font-size="10" class="text-muted app">Prêts à envoyer</text>
+
+  <rect x="726" y="168" width="218" height="130" rx="12" class="card" filter="url(#shadow5)"/>
+  <rect x="746" y="186" width="32" height="32" rx="8" fill="#F5F3FF"/>
+  <text x="762" y="208" text-anchor="middle" font-size="14" class="app"></text>
+  <text x="746" y="240" font-size="10" class="text-muted app">Masse salariale</text>
+  <text x="746" y="272" font-size="22" font-weight="800" class="text-dark app">2 300,00</text>
+  <text x="746" y="290" font-size="10" class="text-muted app">Brut cumulé</text>
+
+  <rect x="959" y="168" width="218" height="130" rx="12" class="card" filter="url(#shadow5)"/>
+  <rect x="979" y="186" width="32" height="32" rx="8" fill="#F5F3FF"/>
+  <text x="995" y="208" text-anchor="middle" font-size="14" class="app"></text>
+  <text x="979" y="240" font-size="10" class="text-muted app">Net total versé</text>
+  <text x="979" y="272" font-size="22" font-weight="800" class="text-dark app">1 820,68</text>
+  <text x="979" y="290" font-size="10" class="text-muted app">Bulletins validés</text>
+
+  <!-- Month group -->
+  <rect x="260" y="320" width="920" height="240" rx="12" class="card" filter="url(#shadow5)"/>
+  <text x="280" y="354" font-size="14" font-weight="700" class="text-dark app">Avril 2026</text>
+  <text x="940" y="354" text-anchor="end" font-size="11" class="text-muted app">1 bulletin</text>
+  <text x="1160" y="354" text-anchor="end" font-size="11" class="text-muted app">Masse brute : 2 300,00</text>
+  <line x1="280" y1="368" x2="1160" y2="368" stroke="#F3F4F6"/>
+
+  <!-- Table headers -->
+  <text x="280" y="396" font-size="10" font-weight="700" class="text-light app" letter-spacing="0.4">SALARIÉ</text>
+  <text x="540" y="396" font-size="10" font-weight="700" class="text-light app" letter-spacing="0.4">POSTE</text>
+  <text x="730" y="396" font-size="10" font-weight="700" class="text-light app" letter-spacing="0.4">BRUT</text>
+  <text x="860" y="396" font-size="10" font-weight="700" class="text-light app" letter-spacing="0.4">COTIS. SAL.</text>
+  <text x="980" y="396" font-size="10" font-weight="700" class="text-light app" letter-spacing="0.4">NET À PAYER</text>
+  <text x="1100" y="396" font-size="10" font-weight="700" class="text-light app" letter-spacing="0.4">STATUT</text>
+
+  <!-- Row: Sophie Aldenov -->
+  <circle cx="304" cy="438" r="16" fill="url(#saG)"/>
+  <text x="304" y="443" text-anchor="middle" font-size="11" font-weight="700" fill="#fff" class="app">SA</text>
+  <text x="328" y="443" font-size="13" font-weight="600" class="text-dark app">Sophie Aldenov</text>
+  <text x="540" y="443" font-size="13" class="text-dark app">Secrétaire</text>
+  <text x="730" y="443" font-size="13" font-weight="600" class="text-dark app">2 300,00</text>
+  <text x="860" y="443" font-size="13" font-weight="600" fill="#EF4444" class="app">479,32</text>
+  <text x="980" y="443" font-size="13" font-weight="700" fill="#7C3AED" class="app">1 820,68</text>
+  <rect x="1090" y="426" width="68" height="24" rx="12" fill="#D1FAE5"/>
+  <text x="1124" y="442" text-anchor="middle" font-size="11" font-weight="600" fill="#047857" class="app">Validé</text>
+  <text x="1164" y="443" text-anchor="end" font-size="11" class="text-muted app">Coût : 3 080,16</text>
+
+  <!-- Footer: compliance -->
+  <rect x="260" y="586" width="920" height="60" rx="10" fill="#F5F3FF" stroke="#E9D5FF"/>
+  <text x="280" y="610" font-size="12" font-weight="700" fill="#7C3AED" class="app">Conforme URSSAF · DSN · PAS · convention collective</text>
+  <text x="280" y="630" font-size="11" class="text-muted app">Barèmes 2026 à jour · réduction Fillon · CSG/CRDS · prélèvement à la source · export DSN mensuelle</text>
+</svg>

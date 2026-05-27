@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-label="Tableau de bord NUMMA — vue d'accueil avec CA, trésorerie, factures impayées et factures récentes">
+  <title>Tableau de bord NUMMA — Accueil</title>
+  <desc>Capture d'écran du logiciel NUMMA : vue d'accueil du tableau de bord comptabilité, avec indicateurs de chiffre d'affaires, trésorerie, factures impayées et liste des dernières factures.</desc>
+  <defs>
+    <linearGradient id="avatarG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#6D28D9"/></linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0B0F19" flood-opacity="0.06"/></filter>
+  </defs>
+  <style>
+    .app{font-family:'Inter',system-ui,sans-serif}
+    .text-dark{fill:#0B0F19}
+    .text-muted{fill:#6B7280}
+    .text-light{fill:#9CA3AF}
+    .bg-card{fill:#fff}
+    .border{stroke:#E5E7EB;stroke-width:1;fill:none}
+    .card{fill:#fff;stroke:#E5E7EB;stroke-width:1}
+  </style>
+  <!-- Window background -->
+  <rect width="1200" height="760" fill="#F9FAFB"/>
+
+  <!-- Sidebar -->
+  <rect x="0" y="0" width="230" height="760" fill="#ffffff" stroke="#E5E7EB"/>
+  <!-- Company switcher -->
+  <rect x="16" y="16" width="198" height="56" rx="10" fill="#F9FAFB" stroke="#E5E7EB"/>
+  <circle cx="40" cy="44" r="16" fill="#E5E7EB"/>
+  <text x="40" y="49" text-anchor="middle" font-size="12" font-weight="700" fill="#6B7280" class="app">G</text>
+  <text x="66" y="42" font-size="13" font-weight="700" class="text-dark app">GIOVVVV</text>
+  <rect x="66" y="48" width="42" height="16" rx="8" fill="#F3E8FF"/>
+  <text x="87" y="59" text-anchor="middle" font-size="9" font-weight="700" fill="#7C3AED" class="app">Admin</text>
+
+  <!-- Nav: Accueil (active) -->
+  <rect x="16" y="92" width="198" height="36" rx="8" fill="#F5F3FF"/>
+  <rect x="16" y="92" width="3" height="36" fill="#7C3AED"/>
+  <text x="40" y="115" font-size="13" font-weight="600" fill="#7C3AED" class="app">Accueil</text>
+
+  <!-- Section: FACTURATION -->
+  <text x="24" y="152" font-size="10" font-weight="700" fill="#9CA3AF" letter-spacing="0.6" class="app">FACTURATION</text>
+  <text x="40" y="178" font-size="12" fill="#374151" class="app">Factures ventes</text>
+  <text x="40" y="202" font-size="12" fill="#374151" class="app">Factures achats</text>
+  <text x="40" y="226" font-size="12" fill="#374151" class="app">Devis</text>
+  <text x="40" y="250" font-size="12" fill="#374151" class="app">Catalogue</text>
+  <text x="40" y="274" font-size="12" fill="#374151" class="app">Relances</text>
+
+  <!-- Section: CLIENTS -->
+  <text x="24" y="302" font-size="10" font-weight="700" fill="#9CA3AF" letter-spacing="0.6" class="app">CLIENTS &amp; FOURN</text>
+  <text x="40" y="328" font-size="12" fill="#374151" class="app">Clients</text>
+  <text x="40" y="352" font-size="12" fill="#374151" class="app">Fournisseurs</text>
+
+  <!-- Section: COMPTABILITÉ -->
+  <text x="24" y="380" font-size="10" font-weight="700" fill="#9CA3AF" letter-spacing="0.6" class="app">COMPTABILITÉ</text>
+  <text x="40" y="406" font-size="12" fill="#374151" class="app">Grand livre</text>
+  <text x="40" y="430" font-size="12" fill="#374151" class="app">Balance</text>
+  <text x="40" y="454" font-size="12" fill="#374151" class="app">Bilan</text>
+  <text x="40" y="478" font-size="12" fill="#374151" class="app">TVA</text>
+  <text x="40" y="502" font-size="12" fill="#374151" class="app">Archives &amp; Audit</text>
+
+  <!-- Section: FINANCE -->
+  <text x="24" y="530" font-size="10" font-weight="700" fill="#9CA3AF" letter-spacing="0.6" class="app">FINANCE</text>
+  <text x="40" y="556" font-size="12" fill="#374151" class="app">Trésorerie</text>
+  <text x="40" y="580" font-size="12" fill="#374151" class="app">Caisse</text>
+
+  <!-- User bottom -->
+  <rect x="0" y="696" width="230" height="64" fill="#FAFAFA" stroke="#E5E7EB"/>
+  <circle cx="32" cy="728" r="16" fill="url(#avatarG)"/>
+  <text x="32" y="732" text-anchor="middle" font-size="11" font-weight="700" fill="#fff" class="app">MT</text>
+  <text x="56" y="724" font-size="12" font-weight="700" class="text-dark app">MALLO TES</text>
+  <rect x="140" y="714" width="48" height="18" rx="9" fill="#F3E8FF"/>
+  <text x="164" y="726" text-anchor="middle" font-size="9" font-weight="700" fill="#7C3AED" class="app">Admin</text>
+  <text x="56" y="740" font-size="10" fill="#9CA3AF" class="app">mallorychazal</text>
+
+  <!-- Top bar -->
+  <rect x="230" y="0" width="970" height="72" fill="#fff" stroke="#E5E7EB"/>
+  <text x="260" y="42" font-size="13" fill="#6B7280" class="app">Accueil</text>
+  <!-- Search bar -->
+  <rect x="560" y="22" width="320" height="30" rx="15" fill="#F3F4F6"/>
+  <text x="580" y="42" font-size="12" fill="#9CA3AF" class="app">Rechercher</text>
+  <!-- Notif -->
+  <circle cx="1040" cy="36" r="14" fill="#F3F4F6"/>
+  <text x="1040" y="41" text-anchor="middle" font-size="13" class="app"></text>
+  <!-- User chip -->
+  <rect x="1070" y="18" width="120" height="36" rx="18" fill="#F9FAFB"/>
+  <circle cx="1090" cy="36" r="12" fill="url(#avatarG)"/>
+  <text x="1090" y="40" text-anchor="middle" font-size="10" font-weight="700" fill="#fff" class="app">MT</text>
+  <text x="1108" y="40" font-size="11" font-weight="700" class="text-dark app">MALLO TEST</text>
+
+  <!-- Page content -->
+  <text x="260" y="118" font-size="24" font-weight="800" class="text-dark app">Bonjour MALLO TEST</text>
+  <text x="260" y="142" font-size="12" class="text-muted app">Jeudi 23 avril 2026</text>
+  <text x="1095" y="142" font-size="11" fill="#7C3AED" font-weight="600" class="app">⟳ Actualiser</text>
+
+  <!-- Stat cards -->
+  <!-- Card 1: CA du mois -->
+  <rect x="260" y="168" width="218" height="120" rx="12" class="card" filter="url(#shadow)"/>
+  <text x="280" y="192" font-size="10" font-weight="700" class="text-muted app" letter-spacing="0.6">CA DU MOIS</text>
+  <rect x="428" y="182" width="28" height="28" rx="8" fill="#F5F3FF"/>
+  <text x="442" y="201" text-anchor="middle" font-size="14" class="app"></text>
+  <text x="280" y="235" font-size="28" font-weight="800" class="text-dark app">0,00</text>
+  <text x="280" y="266" font-size="11" class="text-muted app">0 % vs mois précédent</text>
+
+  <!-- Card 2: Trésorerie -->
+  <rect x="493" y="168" width="218" height="120" rx="12" class="card" filter="url(#shadow)"/>
+  <text x="513" y="192" font-size="10" font-weight="700" class="text-muted app" letter-spacing="0.6">TRÉSORERIE</text>
+  <rect x="661" y="182" width="28" height="28" rx="8" fill="#FEF3C7"/>
+  <text x="675" y="201" text-anchor="middle" font-size="13" class="app"></text>
+  <text x="513" y="235" font-size="28" font-weight="800" fill="#F59E0B" class="app">0,00</text>
+  <text x="513" y="266" font-size="11" class="text-muted app">CA encaissé dépenses</text>
+
+  <!-- Card 3: Impayées -->
+  <rect x="726" y="168" width="218" height="120" rx="12" class="card" filter="url(#shadow)"/>
+  <text x="746" y="192" font-size="10" font-weight="700" class="text-muted app" letter-spacing="0.6">IMPAYÉES</text>
+  <rect x="894" y="182" width="28" height="28" rx="8" fill="#FEE2E2"/>
+  <text x="908" y="201" text-anchor="middle" font-size="13" class="app"></text>
+  <text x="746" y="235" font-size="28" font-weight="800" fill="#EF4444" class="app">1 440,00</text>
+  <text x="746" y="266" font-size="11" class="text-muted app">Factures en attente</text>
+
+  <!-- Card 4: En retard -->
+  <rect x="959" y="168" width="218" height="120" rx="12" class="card" filter="url(#shadow)"/>
+  <text x="979" y="192" font-size="10" font-weight="700" class="text-muted app" letter-spacing="0.6">EN RETARD</text>
+  <rect x="1127" y="182" width="28" height="28" rx="8" fill="#D1FAE5"/>
+  <text x="1141" y="201" text-anchor="middle" font-size="13" class="app"></text>
+  <text x="979" y="235" font-size="28" font-weight="800" fill="#10B981" class="app">0 facture</text>
+  <text x="979" y="266" font-size="11" class="text-muted app">Dépassement d'échéance</text>
+
+  <!-- "À faire aujourd'hui" card -->
+  <rect x="260" y="304" width="680" height="210" rx="12" class="card" filter="url(#shadow)"/>
+  <text x="280" y="330" font-size="14" font-weight="700" class="text-dark app">À faire aujourd'hui</text>
+  <circle cx="600" cy="420" r="28" fill="#D1FAE5"/>
+  <text x="600" y="428" text-anchor="middle" font-size="26" fill="#10B981" class="app"></text>
+  <text x="600" y="472" text-anchor="middle" font-size="14" font-weight="700" class="text-dark app">Tout est à jour</text>
+  <text x="600" y="492" text-anchor="middle" font-size="11" class="text-muted app">Bonne journée !</text>
+
+  <!-- Récap rapide card -->
+  <rect x="959" y="304" width="218" height="160" rx="12" class="card" filter="url(#shadow)"/>
+  <text x="979" y="330" font-size="13" font-weight="700" class="text-dark app">Récap rapide</text>
+  <rect x="979" y="346" width="56" height="72" rx="8" fill="#FEE2E2"/>
+  <text x="1007" y="388" text-anchor="middle" font-size="24" font-weight="800" fill="#EF4444" class="app">0</text>
+  <text x="1007" y="406" text-anchor="middle" font-size="9" fill="#EF4444" class="app">Urgent</text>
+  <rect x="1042" y="346" width="56" height="72" rx="8" fill="#FEF3C7"/>
+  <text x="1070" y="388" text-anchor="middle" font-size="24" font-weight="800" fill="#D97706" class="app">0</text>
+  <text x="1070" y="406" text-anchor="middle" font-size="9" fill="#D97706" class="app">À relancer</text>
+  <rect x="1105" y="346" width="56" height="72" rx="8" fill="#DBEAFE"/>
+  <text x="1133" y="388" text-anchor="middle" font-size="24" font-weight="800" fill="#2563EB" class="app">0</text>
+  <text x="1133" y="406" text-anchor="middle" font-size="9" fill="#2563EB" class="app">Devis</text>
+  <rect x="979" y="428" width="180" height="24" rx="12" fill="#F5F3FF"/>
+  <text x="1069" y="444" text-anchor="middle" font-size="11" font-weight="600" fill="#7C3AED" class="app">Voir les factures</text>
+
+  <!-- Dernières factures -->
+  <rect x="260" y="530" width="680" height="200" rx="12" class="card" filter="url(#shadow)"/>
+  <text x="280" y="556" font-size="14" font-weight="700" class="text-dark app">Dernières factures</text>
+  <text x="908" y="556" text-anchor="end" font-size="11" fill="#7C3AED" font-weight="600" class="app">Voir tout</text>
+  <!-- Column headers -->
+  <text x="280" y="584" font-size="10" font-weight="700" class="text-light app" letter-spacing="0.4">CLIENT</text>
+  <text x="430" y="584" font-size="10" font-weight="700" class="text-light app" letter-spacing="0.4">N°</text>
+  <text x="620" y="584" font-size="10" font-weight="700" class="text-light app" letter-spacing="0.4">MONTANT</text>
+  <text x="740" y="584" font-size="10" font-weight="700" class="text-light app" letter-spacing="0.4">STATUT</text>
+  <text x="870" y="584" font-size="10" font-weight="700" class="text-light app" letter-spacing="0.4">ÉCHÉANCE</text>
+  <line x1="280" y1="594" x2="920" y2="594" stroke="#F3F4F6" stroke-width="1"/>
+  <!-- Row -->
+  <text x="280" y="620" font-size="12" font-weight="600" class="text-dark app">GIOVY TEST</text>
+  <text x="430" y="620" font-size="12" class="text-muted app">FAC-2026-001</text>
+  <text x="620" y="620" font-size="12" font-weight="700" class="text-dark app">1 440,00</text>
+  <rect x="730" y="606" width="72" height="22" rx="11" fill="#DBEAFE"/>
+  <text x="766" y="620" text-anchor="middle" font-size="11" font-weight="600" fill="#2563EB" class="app">Envoyée</text>
+  <text x="870" y="620" font-size="12" class="text-muted app">21 mai</text>
+
+  <!-- Cette semaine card -->
+  <rect x="959" y="478" width="218" height="160" rx="12" class="card" filter="url(#shadow)"/>
+  <text x="979" y="502" font-size="13" font-weight="700" class="text-dark app">Cette semaine</text>
+  <text x="1163" y="502" text-anchor="end" font-size="11" fill="#7C3AED" font-weight="600" class="app">Calendrier</text>
+  <circle cx="1068" cy="560" r="20" fill="#D1FAE5"/>
+  <text x="1068" y="567" text-anchor="middle" font-size="18" fill="#10B981" class="app"></text>
+  <text x="1068" y="604" text-anchor="middle" font-size="11" class="text-muted app">Aucune échéance</text>
+  <text x="1068" y="620" text-anchor="middle" font-size="11" class="text-muted app">cette semaine</text>
+</svg>
